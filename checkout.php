@@ -99,7 +99,7 @@ if(isset($_POST['order'])){
 
       <div class="flex">
          <div class="inputBox">
-            <span>Tapaiko subh nam :</span>
+            <span>Your Name:</span>
             <input type="text" name="name" placeholder="enter your name" class="box" maxlength="20" required>
          </div>
          <div class="inputBox">
@@ -111,12 +111,12 @@ if(isset($_POST['order'])){
             <input type="email" name="email" placeholder="enter your email" class="box" maxlength="50" required>
          </div>
          <div class="inputBox">
-            <span>kasari halnuhunx paisa? :</span>
+            <span>Method :</span>
             <select name="method" class="box" required>
                <option value="cash on delivery">Cash On Delivery</option>
                <option value="credit card">Credit Card</option>
-               <option value="paytm">eSewa</option>
-               <option value="paypal">Khalti</option>
+               <option value="paytm">Dana</option>
+               <option value="paypal">Paypal</option>
             </select>
          </div>
          <div class="inputBox">
@@ -129,19 +129,19 @@ if(isset($_POST['order'])){
          </div>
          <div class="inputBox">
             <span>City :</span>
-            <input type="text" name="city" placeholder="Kathmandu" class="box" maxlength="50" required>
+            <input type="text" name="city" placeholder="Tulungagung" class="box" maxlength="50" required>
          </div>
          <div class="inputBox">
             <span>Province:</span>
-            <input type="text" name="state" placeholder="Bagmati" class="box" maxlength="50" required>
+            <input type="text" name="state" placeholder="Jawa Timur" class="box" maxlength="50" required>
          </div>
          <div class="inputBox">
             <span>Country :</span>
-            <input type="text" name="country" placeholder="Nepal" class="box" maxlength="50" required>
+            <input type="text" name="country" placeholder="Indonesia" class="box" maxlength="50" required>
          </div>
          <div class="inputBox">
             <span>ZIP CODE :</span>
-            <input type="number" min="0" name="pin_code" placeholder="e.g. 56400" min="0" max="999999" onkeypress="if(this.value.length == 6) return false;" class="box" required>
+            <input type="number" min="0" name="pin_code" placeholder="4622" min="0" max="999999" onkeypress="if(this.value.length == 6) return false;" class="box" required>
          </div>
       </div>
 
