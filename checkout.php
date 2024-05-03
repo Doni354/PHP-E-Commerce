@@ -92,7 +92,7 @@ if(isset($_POST['order'])){
       ?>
          <input type="hidden" name="total_products" value="<?= $total_products; ?>">
          <input type="hidden" name="total_price" value="<?= $grand_total; ?>" value="">
-         <div class="grand-total">Grand Total : <span>Nrs.<?= $grand_total; ?>/-</span></div>
+         <div class="grand-total">Grand Total : <span>Rp.<?= $grand_total; ?>/-</span></div>
       </div>
 
       <h3>place your orders</h3>

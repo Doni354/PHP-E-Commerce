@@ -43,9 +43,9 @@ if(isset($_SESSION['user_id'])){
 
       <div class="content">
          <h3>Developer's Message:</h3>
-         <p>Hey There ! I'm Harsh Chaudhary. A Student of BE in Software Engineering Department from NCIT College [Batch : 2023] . I love designing websites and exploring new things. Learning new things is my hobby.</p>
+         <p>Hello! I'm Doni, a student from SMK Negeri 1 Boyolangu. I enjoy learning new things and have a passion for web development and UI/UX design. I believe continuous learning is the key to success.</p>
 
-         <p>I would like to thank <a href="https://www.facebook.com/er.ashokbasnet" target="_blank">Er. Ashok Basnet</a> Sir for guiding me through the session and making me able to develop projects like this. </p>
+         <p>I am a student who has been learning to become a programmer for the past two years. I have been studying UI/UX design, Web Development, as well as improving my communication skills to be able to effectively manage teams</p>
          <a href="contact.php" class="btn">Contact Us</a>
       </div>
 
